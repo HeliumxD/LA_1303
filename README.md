@@ -1,40 +1,43 @@
 # Projekt-Dokumentation
 
-☝️ Alle Text-Stellen, welche mit einem ✍️ beginnen, können Sie löschen, sobald Sie die entsprechende Stellen ausgefüllt haben.
-
-✍️ Ihr Gruppenname und Ihre Nachnamen
+Einzelarbeit, Nicola
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
-|       | ...     |                                                              |
-|       | 1.0.0   |                                                              |
+| 17.01.24 | 0.0.1   |                                                              |
+| 24.01.24 | ...     |                                                              |
+| 14.02.24 | ...     |                                                              |
 
 ## 1 Informieren
 
 ### 1.1 Ihr Projekt
 
-✍️ Beschreiben Sie Ihr Projekt in einem griffigen Satz.
+Ein Programm das Zahlen in unterschiedlichen Schreibweisen ausgeben kann.
 
-✍️ Erklären Sie genauer in 50 bis 100 Wörtern, was genau Sie in diesem Projekt erreichen möchten, und was Sie dabei zu lernen hoffen.
+Ich möchte ein Programm schreiben, dass man eine Zahl eingeben und danach entscheiden kann, dass man zum Beispiel sie Binär oder in römischen Zahlen haben möchte.
 
 ### 1.2 User Stories
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |                 |      | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
-| ...  |                 |      |                                    |
-
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
+| 1.0  | Muss            | Funktional | Zahl einlesen |
+| 2.0  | Muss            | Qualität   | Ungültige Eingaben abfangen |
+| 3.0  | Muss            | Funktional | Entscheiden welche Schreibweise |
+| 4.0  | Kann            | Funktional | In Prozent ausgeben |
+| 5.0  | Kann            | Funktional | Als Binär ausgeben |
+| 6.0  | Kann            | Funktional | Römisch ausgeben |
 
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
-| ...  |              |         |                   |
-
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
+| 1.1  | Programm gestartet | 19      | Zahl wird eingelesen |
+| 2.1  | Programm gestartet | -5      | Ungültige Eingabe. Bitte geben sie eine ganze Zahl ein. |
+| 2.2  | Programm gestartet | 3.5     | Ungütlige Eingabe. Bitte geben sie eine ganze Zahl ein. |
+| 3.1  | Zahl eingegeben | 3 | Wird als römische Zahl ausgegeben. |
+| 4.1  | Schreibweise bestimmt | Zahl: 19, Schreibweise: 1 | 0.19% |
+| 5.1  | Schreibweise bestimmt | Zahl: 19, Schreibweise: 2 | 0010011|
+| 6.1  | Schreibweise bestimmt | Zahl: 19, Schreibweise: 3 | XIX |
 
 ### 1.4 Diagramme
 
@@ -42,38 +45,42 @@
 
 ## 2 Planen
 
-| AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
-| ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
-| ...  |       |           |              |               |
-
-Total: 
-
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
-
-✍️ Ein Arbeitspaket sollte etwa 45' für eine Person in Anspruch nehmen. Die totale Anzahl Arbeitspakete sollte etwa Folgendem entsprechen: `Anzahl R-Sitzungen` ╳ `Anzahl Gruppenmitglieder` ╳ `4`. Wenn Sie also zu dritt an einem Projekt arbeiten, für welches zwei R-Sitzungen geplant sind, sollten Sie auf `2` ╳ `3` ╳`4` = `24` Arbeitspakete kommen. Sollten Sie merken, dass Sie hier nicht genügend Arbeitspakte haben, denken Sie sich weitere "Kann"-User Stories für Kapitel 1.2 aus.
+| AP-№ | Frist    | Zuständig | Beschreibung | geplante Zeit |
+| ---- | -------- | --------- | ------------ | ------------- |
+| 1.A  | 17.01.24 | Nicola    | Zahl einlesen               | 30min |
+| 2.A  | 17.01.24 | Nicola    | Ungültige Eingaben abfangen | 60min |
+| 3.A  | 24.01.24 | Nicola    | Schreibweise bestimmen      | 90min |
+| 4.A  | 24.01.24 | Nicola    | In Prozent ausgeben         | 90min |
+| 5.A  | 14.02.24 | Nicola    | Als Binär ausgeben          | 90min |
+| 6.A  | 14.02.24 | Nicola    | Römisch ausgeben            | 90min |
 
 ## 3 Entscheiden
 
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
+Es sollten nur gerade positive Zahlen eingegeben werden, da es sonst mit dem Binärsystem und vor allem bei den römischen Zahlen zu schwierig wird.
+Man sollte auch mit OOP leicht weitere Schreibweisfunktionen ins Programm hinzufügen können.
 
 ## 4 Realisieren
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
-| ...  |       |           |               |                   |
-
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
+| 1.A  | 17.01.24 | Nicola | 30min | --min |
+| 2.A  | 17.01.24 | Nicola | 60min | --min |
+| 3.A  | 24.01.24 | Nicola | 90min | --min |
+| 4.A  | 24.01.24 | Nicola | 90min | --min |
+| 5.A  | 14.02.24 | Nicola | 90min | --min |
+| 6.A  | 14.02.24 | Nicola | 90min | --min |
 
 ## 5 Kontrollieren
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
-
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
+| 1.1  | XX.XX |          | Nicola |
+| 2.1  | XX.XX |          | Nicola |
+| 2.2  | XX.XX |          | Nicola |
+| 3.1  | XX.XX |          | Nicola |
+| 4.1  | XX.XX |          | Nicola |
+| 5.1  | XX.XX |          | Nicola |
+| 6.1  | XX.XX |          | Nicola |
 
 ## 6 Auswerten
 
