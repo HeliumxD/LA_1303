@@ -32,8 +32,8 @@ Ich möchte ein Programm schreiben, dass man eine Zahl eingeben und danach entsc
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
 | 1.1  | Programm gestartet | 19      | Zahl wird eingelesen |
-| 2.1  | Programm gestartet | -5      | Ungültige Eingabe. Bitte geben sie eine ganze Zahl ein. |
-| 2.2  | Programm gestartet | 3.5     | Ungütlige Eingabe. Bitte geben sie eine ganze Zahl ein. |
+| 2.1  | Programm gestartet | -5      | Ungültige Eingabe. Bitte geben sie eine positive ganze Zahl ein. |
+| 2.2  | Programm gestartet | 3.5     | Ungütlige Eingabe. Bitte geben sie eine positive ganze Zahl ein. |
 | 3.1  | Zahl eingegeben | 3 | Wird als römische Zahl ausgegeben. |
 | 4.1  | Schreibweise bestimmt | Zahl: 19, Schreibweise: 1 | 0.19% |
 | 5.1  | Schreibweise bestimmt | Zahl: 19, Schreibweise: 2 | 0010011|
