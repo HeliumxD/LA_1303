@@ -67,9 +67,11 @@ Man sollte auch mit OOP leicht weitere Schreibweisfunktionen ins Programm hinzuf
 | 2.A  | 17.01.24 | Nicola | 60min | 50min  |
 | 3.A  | 24.01.24 | Nicola | 90min | 30min  |
 | 4.A  | 24.01.24 | Nicola | 90min | 30min  |
-| 5.A  | 24.01.24 | Nicola | 90min | 120min |
-| 5.A  | 14.02.24 | Nicola | 90min | --min  |
-| 6.A  | 14.02.24 | Nicola | 90min | --min  |
+| 5.A  | 24.01.24 | Nicola | 90min | 90min |
+| 5.A  | 14.02.24 | Nicola | 90min | 90min  |
+| 6.A  | 14.02.24 | Nicola | 90min | 60min  |
+
+Logarithmus für Binär
 
 ## 5 Kontrollieren
 
