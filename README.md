@@ -4,8 +4,8 @@ Einzelarbeit, Nicola
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-| 17.01.24 | 0.0.1   | Erstellung der User Stories, Beschreibung der Testfäll und Planung des Ablaufes |
-| 24.01.24 | 0.0.2   |  |
+| 17.01.24 | 0.0.1   | Erstellung der User Stories, Beschreibung der Testfäll, Planung des Ablaufes und erste Codierungen |
+| 24.01.24 | 0.0.2   | Grundcode für das Programm geschrieben und die Funktionen für Prozent und Binär geschrieben |
 | 14.02.24 | ...     |                                                              |
 
 ## 1 Informieren
