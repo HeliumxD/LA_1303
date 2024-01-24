@@ -4,8 +4,8 @@ Einzelarbeit, Nicola
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-| 17.01.24 | 0.0.1   |                                                              |
-| 24.01.24 | ...     |                                                              |
+| 17.01.24 | 0.0.1   | Erstellung der User Stories, Beschreibung der Testfäll und Planung des Ablaufes |
+| 24.01.24 | 0.0.2   |  |
 | 14.02.24 | ...     |                                                              |
 
 ## 1 Informieren
@@ -63,12 +63,13 @@ Man sollte auch mit OOP leicht weitere Schreibweisfunktionen ins Programm hinzuf
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  | 17.01.24 | Nicola | 30min | --min |
-| 2.A  | 17.01.24 | Nicola | 60min | --min |
-| 3.A  | 24.01.24 | Nicola | 90min | --min |
-| 4.A  | 24.01.24 | Nicola | 90min | --min |
-| 5.A  | 14.02.24 | Nicola | 90min | --min |
-| 6.A  | 14.02.24 | Nicola | 90min | --min |
+| 1.A  | 17.01.24 | Nicola | 30min | 20min  |
+| 2.A  | 17.01.24 | Nicola | 60min | 50min  |
+| 3.A  | 24.01.24 | Nicola | 90min | 30min  |
+| 4.A  | 24.01.24 | Nicola | 90min | 30min  |
+| 5.A  | 24.01.24 | Nicola | 90min | 120min |
+| 5.A  | 14.02.24 | Nicola | 90min | --min  |
+| 6.A  | 14.02.24 | Nicola | 90min | --min  |
 
 ## 5 Kontrollieren
 
