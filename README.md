@@ -6,7 +6,7 @@ Einzelarbeit, Nicola
 | ----- | ------- | ------------------------------------------------------------ |
 | 17.01.24 | 0.0.1   | Erstellung der User Stories, Beschreibung der Testfäll, Planung des Ablaufes und erste Codierungen |
 | 24.01.24 | 0.0.2   | Grundcode für das Programm geschrieben und die Funktionen für Prozent und Binär geschrieben |
-| 14.02.24 | ...     |                                                              |
+| 14.02.24 | 1.0.0   | Funktionen für Binär und Römisch geschrieben |
 
 ## 1 Informieren
 
@@ -67,11 +67,9 @@ Man sollte auch mit OOP leicht weitere Schreibweisfunktionen ins Programm hinzuf
 | 2.A  | 17.01.24 | Nicola | 60min | 50min  |
 | 3.A  | 24.01.24 | Nicola | 90min | 30min  |
 | 4.A  | 24.01.24 | Nicola | 90min | 30min  |
-| 5.A  | 24.01.24 | Nicola | 90min | 90min |
-| 5.A  | 14.02.24 | Nicola | 90min | 90min  |
-| 6.A  | 14.02.24 | Nicola | 90min | 60min  |
-
-Logarithmus für Binär
+| 5.A  | 24.01.24 | Nicola | 90min | 90min  |
+| 5.A  | 14.02.24 | Nicola | 90min | 30min  |
+| 6.A  | 14.02.24 | Nicola | 90min | 120min  |
 
 ## 5 Kontrollieren
 
