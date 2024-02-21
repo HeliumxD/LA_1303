@@ -14,7 +14,7 @@ Einzelarbeit, Nicola
 
 Ein Programm das Zahlen in unterschiedlichen Schreibweisen ausgeben kann.
 
-Ich möchte ein Programm schreiben, dass man eine Zahl eingeben und danach entscheiden kann, dass man zum Beispiel sie Binär oder in römischen Zahlen haben möchte.
+Ich möchte ein Programm schreiben, dass man eine Zahl eingeben und danach entscheiden kann, dass man zum Beispiel sie Binär oder in römischen Zahlen haben möchte. Sie soll zudem fehlerhafte Eingaben abfangen können.
 
 ### 1.2 User Stories
 
@@ -39,10 +39,6 @@ Ich möchte ein Programm schreiben, dass man eine Zahl eingeben und danach entsc
 | 5.1  | Schreibweise bestimmt | Zahl: 19, Schreibweise: 2 | 0010011|
 | 6.1  | Schreibweise bestimmt | Zahl: 19, Schreibweise: 3 | XIX |
 
-### 1.4 Diagramme
-
-✍️Fügen Sie hier ein Use Case-Diagramm mit mindestens 3 Anwendungsfällen ein; und eine Skizze davon, wie Ihre Netzseite aussehen sollte.
-
 ## 2 Planen
 
 | AP-№ | Frist    | Zuständig | Beschreibung | geplante Zeit |
@@ -50,8 +46,8 @@ Ich möchte ein Programm schreiben, dass man eine Zahl eingeben und danach entsc
 | 1.A  | 17.01.24 | Nicola    | Zahl einlesen               | 30min |
 | 2.A  | 17.01.24 | Nicola    | Ungültige Eingaben abfangen | 60min |
 | 3.A  | 24.01.24 | Nicola    | Schreibweise bestimmen      | 90min |
-| 4.A  | 24.01.24 | Nicola    | In Prozent ausgeben         | 90min |
-| 5.A  | 14.02.24 | Nicola    | Als Binär ausgeben          | 90min |
+| 4.A  | 24.01.24 | Nicola    | In Prozent ausgeben         | 60min |
+| 5.A  | 14.02.24 | Nicola    | Als Binär ausgeben          | 30min |
 | 6.A  | 14.02.24 | Nicola    | Römisch ausgeben            | 90min |
 
 ## 3 Entscheiden
@@ -69,20 +65,16 @@ Man sollte auch mit OOP leicht weitere Schreibweisfunktionen ins Programm hinzuf
 | 4.A  | 24.01.24 | Nicola | 90min | 30min  |
 | 5.A  | 24.01.24 | Nicola | 90min | 90min  |
 | 5.A  | 14.02.24 | Nicola | 90min | 30min  |
-| 6.A  | 14.02.24 | Nicola | 90min | 120min  |
+| 6.A  | 14.02.24 | Nicola | 90min | 120min |
 
 ## 5 Kontrollieren
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  | XX.XX |          | Nicola |
-| 2.1  | XX.XX |          | Nicola |
-| 2.2  | XX.XX |          | Nicola |
-| 3.1  | XX.XX |          | Nicola |
-| 4.1  | XX.XX |          | Nicola |
-| 5.1  | XX.XX |          | Nicola |
-| 6.1  | XX.XX |          | Nicola |
-
-## 6 Auswerten
-
-✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein.
+| 1.1  | 21.02 | OK | Nicola |
+| 2.1  | 21.02 | OK | Nicola |
+| 2.2  | 21.02 | OK | Nicola |
+| 3.1  | 21.02 | OK | Nicola |
+| 4.1  | 21.02 | OK | Nicola |
+| 5.1  | 21.02 | OK / Es werden mehr nullen als nötig angegeben, aber es ist im Endeffekt nicht falsch. | Nicola |
+| 6.1  | 21.02 | OK | Nicola |
