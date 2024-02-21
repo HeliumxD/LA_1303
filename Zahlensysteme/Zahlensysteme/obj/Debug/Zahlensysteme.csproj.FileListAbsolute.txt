@@ -1,0 +1,8 @@
+C:\Users\nicola.karrer\source\repos\Zahlensysteme\Zahlensysteme\bin\Debug\Zahlensysteme.exe.config
+C:\Users\nicola.karrer\source\repos\Zahlensysteme\Zahlensysteme\bin\Debug\Zahlensysteme.exe
+C:\Users\nicola.karrer\source\repos\Zahlensysteme\Zahlensysteme\bin\Debug\Zahlensysteme.pdb
+C:\Users\nicola.karrer\source\repos\Zahlensysteme\Zahlensysteme\obj\Debug\Zahlensysteme.csproj.AssemblyReference.cache
+C:\Users\nicola.karrer\source\repos\Zahlensysteme\Zahlensysteme\obj\Debug\Zahlensysteme.csproj.SuggestedBindingRedirects.cache
+C:\Users\nicola.karrer\source\repos\Zahlensysteme\Zahlensysteme\obj\Debug\Zahlensysteme.csproj.CoreCompileInputs.cache
+C:\Users\nicola.karrer\source\repos\Zahlensysteme\Zahlensysteme\obj\Debug\Zahlensysteme.exe
+C:\Users\nicola.karrer\source\repos\Zahlensysteme\Zahlensysteme\obj\Debug\Zahlensysteme.pdb
